@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 
-# Prefer greadlink over readlink if present. Important for OSX (incompatible readlink).
+# x Prefer greadlink over readlink if present. Important for OSX (incompatible readlink).
 if type greadlink >/dev/null 2>&1; then
     READLINK=greadlink
 else
