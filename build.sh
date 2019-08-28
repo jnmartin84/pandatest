@@ -116,4 +116,6 @@ fi
     "$@"
 make -j ${PANDA_NPROC:-$(nproc || sysctl -n hw.ncpu)}
 
+echo OK
+
 # vim: set et ts=4 sts=4 sw=4 ai ft=sh :
