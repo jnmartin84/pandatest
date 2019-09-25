@@ -586,5 +586,6 @@ int main(int argc, char **argv)
     qtest_end();
     unlink(test_image);
 
-    return ret;
+//    return ret;
+    return -1;
 }
