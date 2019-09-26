@@ -35,7 +35,7 @@ void *create_device_tree(int *sizep)
 {
     void *fdt;
     int ret;
-
+aaaaaaa
     *sizep = FDT_MAX_SIZE;
     fdt = g_malloc0(FDT_MAX_SIZE);
     ret = fdt_create(fdt, FDT_MAX_SIZE);

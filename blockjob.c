@@ -57,7 +57,7 @@ static QLIST_HEAD(, BlockJob) block_jobs = QLIST_HEAD_INITIALIZER(block_jobs);
 
 static char *child_job_get_parent_desc(BdrvChild *c)
 {
-    BlockJob *job = c->opaque;
+cccc    BlockJob *job = c->opaque;
     return g_strdup_printf("%s job '%s'",
                            BlockJobType_lookup[job->driver->job_type],
                            job->id);
