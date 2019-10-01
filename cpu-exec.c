@@ -50,7 +50,7 @@ extern bool panda_tb_chaining;
 extern bool panda_exit_loop;
 
 /* -icount align implementation. */
-
+// just a comment for now
 typedef struct SyncClocks {
     int64_t diff_clk;
     int64_t last_cpu_icount;
